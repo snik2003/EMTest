@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="ColorsSectionCell" customModule="EMTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQJ-5z-dKS">
+                        <rect key="frame" x="8" y="0.0" width="32" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="5y7-On-KEB"/>
+                            <constraint firstAttribute="width" constant="32" id="WZJ-P7-SCG"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <connections>
+                            <action selector="colorButtonAction" destination="gTV-IL-0wX" eventType="touchUpInside" id="kko-BS-m56"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hQJ-5z-dKS" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="iWq-lg-wqJ"/>
+                <constraint firstItem="hQJ-5z-dKS" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="xMf-vj-Rwr"/>
+            </constraints>
+            <connections>
+                <outlet property="colorButton" destination="hQJ-5z-dKS" id="p1z-it-wAy"/>
+            </connections>
+            <point key="canvasLocation" x="70" y="21"/>
+        </collectionViewCell>
+    </objects>
+</document>

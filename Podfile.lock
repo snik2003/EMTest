@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CropViewController (2.6.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - CropViewController
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CropViewController
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: af1f7a2007d607fbe735c445f19080df4260fe8e
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CropViewController: 58fb440f30dac788b129d2a1f24cffdcb102669c
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: be6fbff21904b71f831b693a035faba09e61a257
+
+COCOAPODS: 1.12.0

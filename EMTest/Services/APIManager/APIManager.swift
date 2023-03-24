@@ -55,7 +55,7 @@ final class APIManager: APIManagerProtocol {
                 
                 // искуственно удвоим количество товаров, приходящих по API,
                 // чтобы визуально продемонстрировать реализацию карусели
-                flash.append(contentsOf: flash)
+                // flash.append(contentsOf: flash)
                 
                 success(flash)
             }
